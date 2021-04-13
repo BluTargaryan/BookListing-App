@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for a list of books -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+  <LinearLayout
+      android:id="@+id/search"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:padding="15dp"
+      android:gravity="center">
+      <HorizontalScrollView
+          android:layout_width="220dp"
+          android:layout_height="match_parent"
+          android:fillViewport="true">
+      <EditText
+          android:id="@+id/search_main"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:fadingEdge="none"
+          android:inputType="textMultiLine"
+          android:isScrollContainer="true"
+          android:overScrollMode="ifContentScrolls"
+          android:scrollHorizontally="true"
+          android:scrollbarStyle="insideOverlay"
+          android:scrollbars="vertical|horizontal"/>
+      </HorizontalScrollView>
+      <Button
+          android:id="@+id/search_button"
+          android:layout_width="100dp"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="15dp"
+          android:text="Search"
+          />
+  </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_below="@id/search">
+<ListView
+    android:id="@+id/listview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@null"
+    android:dividerHeight="0dp"/>
+    </ScrollView>
+</RelativeLayout>

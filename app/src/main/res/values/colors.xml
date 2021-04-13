@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Color for a rating between 0 and 1-->
+    <color name="rating1">#E76C53</color>
+    <!-- Color for a rating between 1 and 2-->
+    <color name="rating2">#EFD077</color>
+    <!-- Color for a rating between 2 and 3-->
+    <color name="rating3">#26948B</color>
+    <!-- Color for a rating between 3 and 4-->
+    <color name="rating4">#0099A9</color>
+    <!-- Color for a rating between 4 and 5-->
+    <color name="rating5">#00FCA8</color>
+    <!-- Color for a weird rating-->
+    <color name="ratingplus">#808080</color>
+
+
+    <!-- Text color -->
+    <color name="textColor">#2B3D4D</color>
+    <!-- Secondary ext color -->
+    <color name="textColor2">#67696A</color>
+</resources>
